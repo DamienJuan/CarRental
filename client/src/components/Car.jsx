@@ -16,10 +16,10 @@ const Car = ({ car }) => {
                     m={2}
                     fontSize={'sm'}
                     fontWeight={600}
-                    bg={'teal.500'}
+                    bg={'yellow.500'}
                     color={'white'}
                     _hover={{
-                        bg: 'teal.300',
+                        bg: 'yellow.300',
                     }}>
                     Check Out
                 </Button>
@@ -29,9 +29,9 @@ const Car = ({ car }) => {
                     fontSize={'sm'}
                     fontWeight={600}
                     color={'white'}
-                    bg={'teal.500'}
+                    bg={'yellow.500'}
                     _hover={{
-                        bg: 'teal.300',
+                        bg: 'yellow.300',
                     }}>
                     Check In
                 </Button>

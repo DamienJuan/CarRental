@@ -22,16 +22,16 @@ import {
     ChevronRightIcon,
   } from '@chakra-ui/icons';
   import { useContext } from 'react';
-//   import { BlockchainContext } from '../context/BlockchainContext';
+  import { BlockchainContext } from '../context/BlockchainContext';
   
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
-    // const { connectWallet, currentAccount } = useContext(BlockchainContext);
+    const { connectWallet, currentAccount } = useContext(BlockchainContext);
   
     return (
       <Box>
         <Flex
-          bg={useColorModeValue('gray.200', 'gray.800')}
+          bg={useColorModeValue('yellow.200', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}
           minH={'60px'}
           py={{ base: 2 }}
@@ -57,17 +57,17 @@ import {
             direction={'row'}
             spacing={6}>
             <Button
-            // onClick={connectWallet}
+            onClick={connectWallet}
               display={{ md: 'inline-flex' }}
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
-              bg={'teal.500'}
+              bg={'orange.500'}
               href={'#'}
               _hover={{
-                bg: 'teal.300',
+                bg: 'orange.300',
               }}>
-              {/* {!currentAccount ? "Connect Wallet" : `${currentAccount.slice(0, 5)}...${currentAccount.slice(currentAccount.length - 4)}`} */}
+              {!currentAccount ? "Connect Wallet" : `${currentAccount.slice(0, 5)}...${currentAccount.slice(currentAccount.length - 4)}`}
             </Button>
           </Stack>
         </Flex>

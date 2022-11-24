@@ -9,10 +9,10 @@ import {
     Flex
 } from '@chakra-ui/react'
 import { useContext } from 'react'
-// import { BlockchainContext } from '../context/BlockchainContext'
+import { BlockchainContext } from '../context/BlockchainContext'
 
 export default function AddToBalanceForm() {
-    // const { deposit } = useContext(BlockchainContext)
+    const { deposit } = useContext(BlockchainContext)
     const {
         handleSubmit,
         register,
@@ -21,8 +21,8 @@ export default function AddToBalanceForm() {
 
     const onSubmit = async (values) => {
         console.log(JSON.stringify(values, null, 2))
-        // const {creditbalance} = values;
-        // await deposit(creditbalance);
+        const {creditbalance} = values;
+        await deposit(creditbalance);
     }
 
     return (
@@ -49,7 +49,7 @@ export default function AddToBalanceForm() {
                     {errors.creditbalance && errors.creditbalance.message}
                 </FormErrorMessage>
             </FormControl>
-            <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
+            <Button mt={4} colorScheme='yellow' isLoading={isSubmitting} type='submit'>
                 Submit
             </Button>
         </form>

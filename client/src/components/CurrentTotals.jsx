@@ -59,7 +59,7 @@ export default function CurrentTotals() {
                 fontSize={'4xl'}
                 py={10}
                 fontWeight={'bold'}>
-                Welcome Travis! Here are your stats:
+                Welcome Damien! Here are your stats:
             </chakra.h1>
             <SimpleGrid columns={{ base: 1, md: 4 }} spacing={{ base: 5, lg: 8 }}>
                 <StatsCard

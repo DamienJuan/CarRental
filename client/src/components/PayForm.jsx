@@ -49,7 +49,7 @@ export default function PayForm() {
                     {errors.payment && errors.payment.message}
                 </FormErrorMessage>
             </FormControl>
-            <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
+            <Button mt={4} colorScheme='yellow' isLoading={isSubmitting} type='submit'>
                 Submit
             </Button>
         </form>

@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 
 import { useNavigate } from "react-router-dom";
+import Car from '../assets/car.jpg'
 
 export default function Hero() {
   let navigate = useNavigate();
@@ -70,9 +71,8 @@ export default function Hero() {
         <Image
           alt={"Login Image"}
           objectFit={"cover"}
-          src={
-            "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-          }
+          mb={10}
+          src={Car}
         />
       </Flex>
     </Stack>
