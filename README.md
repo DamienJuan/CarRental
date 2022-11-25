@@ -31,4 +31,4 @@ This hackathon allowed me to introduce myself to the world of Web3 and to unders
 
 ### Project Submission
 
-4 min video link
+https://www.youtube.com/watch?v=o62KcoP_InY
