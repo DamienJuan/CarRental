@@ -1,24 +1,34 @@
-# CarRental
+# CryptoCar
 
 ### **Setup**
-
-So that it is easier for us to test your project.
+```bash
+  [CarRental]$ npm i
+  [CarRental]$ cd client
+  [client]$ npm i
+  [client]$ npm run dev
+```
+  
 
 ### Problem
 
-*What problem does your project solve? How does it fit into the theme "Building a Decentralized Future"?*
+This simplifies the need to rent luxury cars with cryptocurrency.
+
+It helps to move towards a decentralized future since the transaction is based on the blockchain and without the need of external human interaction for the payment.
 
 ### Solution
 
-*How did you resolve this issue? What technologies did you use? What was your biggest technical challenge and how does your solution solve it?*
+We propose a simple interface to rent cars for a day or more, you pay when you return it with BNB Chain using metamask.
 
 ### Team and comments
 
-*Specify the name of your team (the same as on the discord/gather), and tell us what you learned during this hackathon!*
+Team Name : SoloBolo (indeed I was alone).
+
+Before this Hackathon I didn't really have any knowledge on Web3 and blockchain, that's why I did a very simple concept oriented towards E-Society and payment methods.
+
+I learned a lot by following course, I learned how to code in Solidity, made my first smart contract and deployed it with Hardhat (sorry Starton i'm too noob for the techno) on the BSC Testnet , then I did the front end with React + Vite and linked all that together to interact with my contract through metamask and the UI.
+
+This hackathon allowed me to introduce myself to the world of Web3 and to understand a little about how it works.
 
 ### Project Submission
 
-- Provide an explanation of the features of your projects. You must link a demonstration video with commentary and screen recording of your presentation (10 slides max) or demo product (example: Loom, 4 minutes max).
-- Include a brief demonstration of the use of **Starton** or its partners **iExec**, **BNB Chain**, **NodeReal,** or **Ledger**.
-The more you use partner technologies, the more points you will earn. Example: Use the **Starton** API on the **BNB Chain** blockchain.
-You have used two partners.
+4 min video link
